@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05830721EB02DFB00ECC421 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C05830711EB02DFB00ECC421 /* libsqlite3.0.tbd */; };
+		C05830751EB0454000ECC421 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05830741EB0454000ECC421 /* TableViewController.m */; };
+		C058307C1EB0473F00ECC421 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C058307A1EB0473F00ECC421 /* TableViewCell.m */; };
+		C058307D1EB0473F00ECC421 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C058307B1EB0473F00ECC421 /* TableViewCell.xib */; };
+		C05830801EB04B3D00ECC421 /* FMDBService.m in Sources */ = {isa = PBXBuildFile; fileRef = C058307F1EB04B3D00ECC421 /* FMDBService.m */; };
+		C05830841EB06B3000ECC421 /* AddDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05830821EB06B3000ECC421 /* AddDataViewController.m */; };
+		C05830851EB06B3000ECC421 /* AddDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05830831EB06B3000ECC421 /* AddDataViewController.xib */; };
+		C05830891EB0788900ECC421 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05830871EB0788900ECC421 /* DetailViewController.m */; };
+		C058308A1EB0788900ECC421 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05830881EB0788900ECC421 /* DetailViewController.xib */; };
+		C0CC3C4B1EA31C9F003682BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C4A1EA31C9F003682BD /* main.m */; };
+		C0CC3C4E1EA31CA0003682BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C4D1EA31CA0003682BD /* AppDelegate.m */; };
+		C0CC3C511EA31CA0003682BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C501EA31CA0003682BD /* ViewController.m */; };
+		C0CC3C541EA31CA0003682BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CC3C521EA31CA0003682BD /* Main.storyboard */; };
+		C0CC3C561EA31CA0003682BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CC3C551EA31CA0003682BD /* Assets.xcassets */; };
+		C0CC3C591EA31CA0003682BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CC3C571EA31CA0003682BD /* LaunchScreen.storyboard */; };
+		C0CC3C6D1EA31CCE003682BD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C621EA31CCE003682BD /* FMDatabase.m */; };
+		C0CC3C6E1EA31CCE003682BD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C641EA31CCE003682BD /* FMDatabaseAdditions.m */; };
+		C0CC3C6F1EA31CCE003682BD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C661EA31CCE003682BD /* FMDatabasePool.m */; };
+		C0CC3C701EA31CCE003682BD /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C681EA31CCE003682BD /* FMDatabaseQueue.m */; };
+		C0CC3C711EA31CCE003682BD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CC3C6B1EA31CCE003682BD /* FMResultSet.m */; };
+		C0CC3C721EA31CCE003682BD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0CC3C6C1EA31CCE003682BD /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C05830711EB02DFB00ECC421 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C05830731EB0454000ECC421 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C05830741EB0454000ECC421 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C05830791EB0473F00ECC421 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C058307A1EB0473F00ECC421 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C058307B1EB0473F00ECC421 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C058307E1EB04B3D00ECC421 /* FMDBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBService.h; sourceTree = "<group>"; };
+		C058307F1EB04B3D00ECC421 /* FMDBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBService.m; sourceTree = "<group>"; };
+		C05830811EB06B3000ECC421 /* AddDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDataViewController.h; sourceTree = "<group>"; };
+		C05830821EB06B3000ECC421 /* AddDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDataViewController.m; sourceTree = "<group>"; };
+		C05830831EB06B3000ECC421 /* AddDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDataViewController.xib; sourceTree = "<group>"; };
+		C05830861EB0788900ECC421 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C05830871EB0788900ECC421 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C05830881EB0788900ECC421 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		C0CC3C461EA31C9F003682BD /* 13.6.2 更新操作与查询操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13.6.2 更新操作与查询操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CC3C4A1EA31C9F003682BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0CC3C4C1EA31CA0003682BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0CC3C4D1EA31CA0003682BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0CC3C4F1EA31CA0003682BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0CC3C501EA31CA0003682BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0CC3C531EA31CA0003682BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0CC3C551EA31CA0003682BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0CC3C581EA31CA0003682BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0CC3C5A1EA31CA0003682BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CC3C611EA31CCE003682BD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C0CC3C621EA31CCE003682BD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C0CC3C631EA31CCE003682BD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C0CC3C641EA31CCE003682BD /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C0CC3C651EA31CCE003682BD /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C0CC3C661EA31CCE003682BD /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C0CC3C671EA31CCE003682BD /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C0CC3C681EA31CCE003682BD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C0CC3C691EA31CCE003682BD /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C0CC3C6A1EA31CCE003682BD /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C0CC3C6B1EA31CCE003682BD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C0CC3C6C1EA31CCE003682BD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0CC3C431EA31C9F003682BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05830721EB02DFB00ECC421 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C05830701EB02DFB00ECC421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05830711EB02DFB00ECC421 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0CC3C3D1EA31C9F003682BD = {
+			isa = PBXGroup;
+			children = (
+				C0CC3C481EA31C9F003682BD /* 13.6.2 更新操作与查询操作 */,
+				C0CC3C471EA31C9F003682BD /* Products */,
+				C05830701EB02DFB00ECC421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0CC3C471EA31C9F003682BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC3C461EA31C9F003682BD /* 13.6.2 更新操作与查询操作.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0CC3C481EA31C9F003682BD /* 13.6.2 更新操作与查询操作 */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC3C601EA31CCE003682BD /* fmdb */,
+				C0CC3C4C1EA31CA0003682BD /* AppDelegate.h */,
+				C0CC3C4D1EA31CA0003682BD /* AppDelegate.m */,
+				C0CC3C4F1EA31CA0003682BD /* ViewController.h */,
+				C0CC3C501EA31CA0003682BD /* ViewController.m */,
+				C05830731EB0454000ECC421 /* TableViewController.h */,
+				C05830741EB0454000ECC421 /* TableViewController.m */,
+				C05830791EB0473F00ECC421 /* TableViewCell.h */,
+				C058307A1EB0473F00ECC421 /* TableViewCell.m */,
+				C058307B1EB0473F00ECC421 /* TableViewCell.xib */,
+				C05830811EB06B3000ECC421 /* AddDataViewController.h */,
+				C05830821EB06B3000ECC421 /* AddDataViewController.m */,
+				C05830831EB06B3000ECC421 /* AddDataViewController.xib */,
+				C05830861EB0788900ECC421 /* DetailViewController.h */,
+				C05830871EB0788900ECC421 /* DetailViewController.m */,
+				C05830881EB0788900ECC421 /* DetailViewController.xib */,
+				C058307E1EB04B3D00ECC421 /* FMDBService.h */,
+				C058307F1EB04B3D00ECC421 /* FMDBService.m */,
+				C0CC3C521EA31CA0003682BD /* Main.storyboard */,
+				C0CC3C551EA31CA0003682BD /* Assets.xcassets */,
+				C0CC3C571EA31CA0003682BD /* LaunchScreen.storyboard */,
+				C0CC3C5A1EA31CA0003682BD /* Info.plist */,
+				C0CC3C491EA31C9F003682BD /* Supporting Files */,
+			);
+			path = "13.6.2 更新操作与查询操作";
+			sourceTree = "<group>";
+		};
+		C0CC3C491EA31C9F003682BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC3C4A1EA31C9F003682BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0CC3C601EA31CCE003682BD /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				C0CC3C611EA31CCE003682BD /* FMDatabase.h */,
+				C0CC3C621EA31CCE003682BD /* FMDatabase.m */,
+				C0CC3C631EA31CCE003682BD /* FMDatabaseAdditions.h */,
+				C0CC3C641EA31CCE003682BD /* FMDatabaseAdditions.m */,
+				C0CC3C651EA31CCE003682BD /* FMDatabasePool.h */,
+				C0CC3C661EA31CCE003682BD /* FMDatabasePool.m */,
+				C0CC3C671EA31CCE003682BD /* FMDatabaseQueue.h */,
+				C0CC3C681EA31CCE003682BD /* FMDatabaseQueue.m */,
+				C0CC3C691EA31CCE003682BD /* FMDB.h */,
+				C0CC3C6A1EA31CCE003682BD /* FMResultSet.h */,
+				C0CC3C6B1EA31CCE003682BD /* FMResultSet.m */,
+				C0CC3C6C1EA31CCE003682BD /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0CC3C451EA31C9F003682BD /* 13.6.2 更新操作与查询操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CC3C5D1EA31CA0003682BD /* Build configuration list for PBXNativeTarget "13.6.2 更新操作与查询操作" */;
+			buildPhases = (
+				C0CC3C421EA31C9F003682BD /* Sources */,
+				C0CC3C431EA31C9F003682BD /* Frameworks */,
+				C0CC3C441EA31C9F003682BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13.6.2 更新操作与查询操作";
+			productName = "13.6.2 更新操作与查询操作";
+			productReference = C0CC3C461EA31C9F003682BD /* 13.6.2 更新操作与查询操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0CC3C3E1EA31C9F003682BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Liz;
+				TargetAttributes = {
+					C0CC3C451EA31C9F003682BD = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C0CC3C411EA31C9F003682BD /* Build configuration list for PBXProject "13.6.2 更新操作与查询操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0CC3C3D1EA31C9F003682BD;
+			productRefGroup = C0CC3C471EA31C9F003682BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0CC3C451EA31C9F003682BD /* 13.6.2 更新操作与查询操作 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0CC3C441EA31C9F003682BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CC3C721EA31CCE003682BD /* Info.plist in Resources */,
+				C058307D1EB0473F00ECC421 /* TableViewCell.xib in Resources */,
+				C058308A1EB0788900ECC421 /* DetailViewController.xib in Resources */,
+				C0CC3C591EA31CA0003682BD /* LaunchScreen.storyboard in Resources */,
+				C0CC3C561EA31CA0003682BD /* Assets.xcassets in Resources */,
+				C05830851EB06B3000ECC421 /* AddDataViewController.xib in Resources */,
+				C0CC3C541EA31CA0003682BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0CC3C421EA31C9F003682BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CC3C511EA31CA0003682BD /* ViewController.m in Sources */,
+				C0CC3C6F1EA31CCE003682BD /* FMDatabasePool.m in Sources */,
+				C05830801EB04B3D00ECC421 /* FMDBService.m in Sources */,
+				C0CC3C4E1EA31CA0003682BD /* AppDelegate.m in Sources */,
+				C058307C1EB0473F00ECC421 /* TableViewCell.m in Sources */,
+				C0CC3C701EA31CCE003682BD /* FMDatabaseQueue.m in Sources */,
+				C05830751EB0454000ECC421 /* TableViewController.m in Sources */,
+				C0CC3C4B1EA31C9F003682BD /* main.m in Sources */,
+				C05830841EB06B3000ECC421 /* AddDataViewController.m in Sources */,
+				C05830891EB0788900ECC421 /* DetailViewController.m in Sources */,
+				C0CC3C6D1EA31CCE003682BD /* FMDatabase.m in Sources */,
+				C0CC3C711EA31CCE003682BD /* FMResultSet.m in Sources */,
+				C0CC3C6E1EA31CCE003682BD /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0CC3C521EA31CA0003682BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CC3C531EA31CA0003682BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0CC3C571EA31CA0003682BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0CC3C581EA31CA0003682BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0CC3C5B1EA31CA0003682BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0CC3C5C1EA31CA0003682BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0CC3C5E1EA31CA0003682BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "13.6.2 更新操作与查询操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99ios.-3-6-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0CC3C5F1EA31CA0003682BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "13.6.2 更新操作与查询操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99ios.-3-6-2----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0CC3C411EA31C9F003682BD /* Build configuration list for PBXProject "13.6.2 更新操作与查询操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CC3C5B1EA31CA0003682BD /* Debug */,
+				C0CC3C5C1EA31CA0003682BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CC3C5D1EA31CA0003682BD /* Build configuration list for PBXNativeTarget "13.6.2 更新操作与查询操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CC3C5E1EA31CA0003682BD /* Debug */,
+				C0CC3C5F1EA31CA0003682BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0CC3C3E1EA31C9F003682BD /* Project object */;
+}
